@@ -15,6 +15,14 @@
     padding: 0%;
 }
 
+body{
+   
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+
+}
+
 .mainContent {
     display: flex;
     flex-direction: column;
@@ -22,12 +30,11 @@
     justify-content: space-between;
 }
 
-body{
-   
-    box-sizing: border-box;
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
-
+.mainContent2 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
 
 .cabecalho {
@@ -55,7 +62,7 @@ body{
     display: flex;  
     align-items: center;
     justify-content: space-between;
-    gap: 100xp;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -63,11 +70,12 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    font-family:var(--fonte-primaria);
+    
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
+    font-family:var(--fonte-primaria);
 
 }
 
@@ -101,29 +109,11 @@ body{
     
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
     border:  2px solid var(--cor-secundaria);
     width: 50%;
     text-align: center;
-    border-radius: 16px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: var(--fonte-secundaria);
-
-}
-
-.apresentacao__link__botao {
-    
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    border:  2px solid var(--cor-secundaria);
-    width: 50%;
-    text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -137,11 +127,11 @@ body{
     
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
     border:  2px solid var(--cor-secundaria);
     width: 50%;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -165,12 +155,12 @@ body{
 }
 
 .rodape {
-    padding: 1.5rem;
+    padding: 24px;
     color: var(--cor-primaria);
     background-color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
